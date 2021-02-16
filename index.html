@@ -13,9 +13,24 @@
     <title>JS alapok</title>
 </head>
 <body>
+    <p id="weblap">
     <div class="egesz1">
     <div class="egesz2">
     <h1>Mit tud a JavaScript?</h1>
+    <div class="gombok">
+        <div class="d-grid gap-2">
+        <button onclick="myFunction()" id="egygomb" type="button" class="btn btn-outline-warning" >Szerző</button>
+        <script>
+            function myFunction() {
+              alert("Móricz János Milán");
+            }
+            </script>
+        <button id="kettogomb" onclick="window.print()" type="button" class="btn btn-outline-warning">Oldal nyomtatása</button>
+        <br><br>
+        </div>
+    <button type="button" onclick="document.getElementById('weblap').body.backgroundColor='black'" class="btn btn-outline-primary">Éjszakai mód</button>
+    <button type="button" class="btn btn-outline-primary">Nappali mód</button>
+    </div>
     <hr rounded="solid">
         <div class="elso">
             <button type="button" class="btn btn-outline-primary"
@@ -54,6 +69,7 @@
             
         </div>
     </div>
+    </p>
 </div>
 </div
 </body>
