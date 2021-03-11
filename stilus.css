@@ -1,20 +1,11 @@
 body{
-    background-color: royalblue;
+    padding: 40px;
 }
 h1{
     text-align: center;
 }
-.egesz2{
-    background-color: white;
-    padding: 1%;
-}
-
 h2{
     text-align: left;
-}
-.egesz1{
-    background-color: royalblue;
-    padding: 1%;
 }
 .gombok{
     text-align: center;
@@ -26,3 +17,11 @@ h2{
 #kettogomb{
     width: 100%;
 }
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+.rainbow {
+    background-color: orangered;
+    color: bisque;
+  }
